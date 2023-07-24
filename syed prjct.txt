@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <title>Sportz</title>
+  </head>
+  <body>
+    <nav class="info-nav">
+      <div class="icons-tray">
+        <span> <i class="fa fa-facebook-f"></i></span>
+        <span> <i class="fa fa-instagram"></i></span>
+        <span> <i class="fa fa-twitter"></i></span>
+        <span> <i class="fa fa-linkedin"></i></span>
+      </div>
+
+      <div class="info-tray">
+        <span><i class="fa fa-envelope"></i> email@domain.com</span>
+        <span><i class="fa fa-phone"></i>+91123456789</span>
+      </div>
+    </nav>
+    <nav class="route-nav">
+      <img src="logo.webp" alt="" srcset="" />
+      <div class="links">
+        <select>
+          <option><a>HOME</a></option>
+        </select>
+        <a href="#"
+          ><select>
+            <option>NEWS</option>
+          </select></a>
+        <a href="#">
+          <select>
+            <option><a>TEAMS</option>
+            <option><a>ARGENTINA</option>
+            <option><a>FRANCE</option>
+            <option><a>CROATIA</option>
+            <option><a>BRAZIL</option>
+            <option><a>SPAIN</option>
+            <option><a>ENGLAND</option>
+            <option><a>GERMANY</option>
+            <option><a>MOROCCO</option>
+            <option><a>SAUDI ARABIA</option>
+            <option><a>NETHERLAND</option>
+            <option><a>PORTUGAL</option>
+            </select></a>
+        <a href="#">MATCHES</a>
+        <a href="#">ABOUT</a>
+        <a href="#">CONTACT</a>
+      </div>
+    </nav>
+    <div class="carousel">
+      <div class="heading">Russia's World Cup</div>
+      <div class="heading">Championship</div>
+      <button class="read-more-btn">READ MORE</button>
+    </div>
+    <div class="three-img">
+      <div>
+        <img src="img_1_sq.jpg" />
+        <img src="img_3_sq.jpg" />
+        <img src="img_4_sq.jpg" />
+      </div>
+    </div>
+    <div class="match-details">
+      <div class="upcoming-matches">
+        <div class="date-info">
+          <p>Next Match</p>
+          <div class="time">
+            <span><b>01</b> weeks</span>
+            <span><b>02</b> days</span>
+            <span><b>12</b> hr</span>
+            <span><b>15</b> min</span>
+            <span><b>20</b> secs</span>
+          </div>
+        </div>
+
+        <div class="team-info">
+          <div class="team">
+            <div>
+              <img src="img_1_sq.jpg" />
+            </div>
+            <div>ARGENTINA</div>
+          </div>
+          <div style="margin: 20px">VS</div>
+          <div class="team">
+            <div>
+              <img src="img_3_sq.jpg" />
+            </div>
+            <div>FRANCE</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
